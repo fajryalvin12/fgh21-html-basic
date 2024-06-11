@@ -1,30 +1,46 @@
-.kolom1{
+table {
+    margin: 150px 0 0 150px;
+    border-collapse: collapse;
+}
+.header1{
     width: 25px;
-    height: 25px;
-    background-color: aqua;
+    font-family: Roboto;
+    font-weight: bold;
 }
-.kolom2{
-    width: 125px;
-    height: 25px;
-    background-color: aqua;
+.header2{
+    width: 150px;
+    font-family: Roboto;
+    font-weight: bold;
 }
-.kolom3{
-    width: 100px;
-    height: 25px;
-    background-color: aqua;
+.header3{
+    width: 150px;
+    font-family: Roboto;
+    font-weight: bold;
 }
-.kolom4{
+.header4{
     width: 75px;
-    height: 25px;
-    background-color: aqua;
+    font-family: Roboto;
+    font-weight: bold;
 }
-.kolom5{
+.header5{
     width: 75px;
-    height: 25px;
-    background-color: aqua;
+    font-family: Roboto;
+    font-weight: bold;
 }
-.kolom6{
-    width: 100px;
-    height: 25px;
-    background-color: aqua;
+.header6{
+    width: 150px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: peru;
+    height: 35px;
+    font-size: 15px;
+    color:white
+}
+tr:nth-child(odd) {
+    background-color:sienna;
+    height: 35px;
+    font-size: 15px;
+    color:white
 }
