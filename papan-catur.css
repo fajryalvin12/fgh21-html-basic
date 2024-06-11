@@ -1,0 +1,39 @@
+div {
+    font-size: 0;
+}
+.row1:nth-child(odd){
+    background-color:black; 
+    border-color: black; 
+    border-width: 1px; 
+    border-style: solid; 
+    width:100px; 
+    height:100px;
+    display: inline-block;
+}
+.row1:nth-child(even){
+    background-color:white; 
+    border-color: black; 
+    border-width: 1px; 
+    border-style: solid; 
+    width:100px; 
+    height:100px;
+    display: inline-block;
+}
+.row2:nth-child(odd){
+    background-color:white; 
+    border-color: black; 
+    border-width: 1px; 
+    border-style: solid; 
+    width:100px; 
+    height:100px;
+    display: inline-block;
+}
+.row2:nth-child(even){
+    background-color:black; 
+    border-color: black; 
+    border-width: 1px; 
+    border-style: solid; 
+    width:100px; 
+    height:100px;
+    display: inline-block;
+}
